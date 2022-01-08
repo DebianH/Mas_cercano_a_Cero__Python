@@ -10,7 +10,7 @@ def computing_digitos(n):
         if i%3==0 or i%5==0 or i%7==0:
             li.append(i)
             c+=1
-    print(li) #imprime los multiplos
-    return sum(li) #suma los todos los multiplos que contiene n
+    print(li) # imprime los multiplos
+    return sum(li) # suma los todos los multiplos que contiene n
 
 print(computing_digitos(66)) # <- Test
